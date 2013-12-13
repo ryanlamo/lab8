@@ -23,6 +23,10 @@ This robot is a left-wall following robot. To move, robot uses following steps t
 - Code available to the User
   - anything on either the Lab 6 or Lab 7 files
 
+- Functions that must be used to initialize the motors and sensors. 
+  - `initADC`
+  - `initPWM`
+
 - Code used for this Program 
   - From Lab 6
       - `moveRobotRight`
