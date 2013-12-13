@@ -2,7 +2,8 @@
  * Created: 11 December 2013
  * Last Edited: 11 December 2013
  * Description: This code will program the robot to navigate a maze in a left-wall following fashion.
- * Documentation:
+ * Documentation: Capt Branchflower helped explain how to order the if else statements so the robot would move properly.
+ * C2C Bentley helped me understand how to make the if statements so the robot would stop as it got close to the wall
  */
 
 #include "Lab7/sensor.h"
