@@ -4,9 +4,9 @@ Main.c code to program robot to navigate maze.
 ## Notes About Lab
 This lab requires the following header and implementation from previous labs to run
  - From Lab 6
-    - 'robot.c' and 'robot.h'
+    - `robot.c` and `robot.h`
  - From Lab 7 
-    - 'sensor.c' and sensor.h'
+    - `sensor.c` and `sensor.h`
 
 The header files must be included in this main.c file for the program to run properly. 
 
@@ -25,14 +25,14 @@ This robot is a left-wall following robot. To move, robot uses following steps t
 
 - Code used for this Program 
   - From Lab 6
-      - 'moveRobotRight'
-      - 'moveRobotLeft'
-      - 'moveRobotForward'
-      - 'moveRobotBack'
-      - 'stopRobot'
+      - `moveRobotRight`
+      - `moveRobotLeft`
+      - `moveRobotForward`
+      - `moveRobotBack`
+      - `stopRobot`
   
   - From Lab 7 
-      - 'getCenterSensorReading'
-      - 'getRightSensorReading'
-      - 'getLeftSensorReading'
+      - `getCenterSensorReading`
+      - `getRightSensorReading`
+      - `getLeftSensorReading`
       
