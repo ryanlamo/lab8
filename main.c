@@ -19,11 +19,15 @@ int main(void) {
 
     for(;;)				//Left wall following program
     {
-    	if (getCenterSensorReading() > 0x1ff)
+    	if (getCenterSensorReading() > 0x1b0)
     	{
     		stopRobot();
-
-
+    		__delay_cycles(1000000);
+    		moveRobotBackward();
+    		__delay_cycles(750000);
+    		moveRobotRight();
+    		__delay_cycles(1000000);
+    		stopRobot();
     	}
     	else if (getLeftSensorReading() > 0x1a0)
     	{
@@ -33,7 +37,7 @@ int main(void) {
     	else if (getRightSensorReading() > 0x1a0)
     	{
     		moveRobotLeft();
-    		__delay_cycles(10000);
+    		__delay_cycles(1000);
     	}
     	else
     	{
